@@ -1,0 +1,35 @@
+{
+	"FileVersion" : 3,
+	"Version" : 1,
+	"VersionName" : "1.0",
+	"FriendlyName" : "NetPeer",
+	"Description" : "The NetPeer plugin provide a tcp client function to connect to tcp server. You can connect to a tcp server and handle all the message packets in blueprint, No need c++.",
+	"Category" : "Net",
+	"CreatedBy" : "Barry",
+	"CreatedByURL" : "",
+	"DocsURL" : "",
+	"MarketplaceURL" : "com.epicgames.launcher://ue/marketplace/content/ed91d46a9eb54fc6a57aa72d0f32e518",
+	"SupportURL" : "https://github.com/daxiazh/NetPeerExampleProject",
+	"EngineVersion" : "4.17.0",
+	"CanContainContent" : false,
+	"IsBetaVersion" : false,
+	"Installed" : true,
+	"RequiresBuildPlatform" : false,
+	"Modules" :
+	[
+		{
+			"Name" : "NetPeer",
+			"Type" : "Runtime",
+			"LoadingPhase" : "PreDefault",
+			"WhitelistPlatforms" :
+			[
+				"Win64",
+				"Win32",
+				"Mac",
+				"Linux",
+				"IOS",
+				"Android"
+			]
+		}
+	]
+}
